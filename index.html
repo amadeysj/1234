@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="patrick.png" class="patrick">
+    <img src="arrowDown.png" class="down">
+    <img src="arrowUp.png" class="up">
+    <img src="arrowLeft.png" class="left">
+    <img src="arrowRight.png" class="right">
+    <audio controls>
+    <source src="audio/music.ogg" type="audio/ogg; codecs=vorbis">
+    <source src="%D0%91%D1%83%D0%BC%D0%B5%D1%80%20%E2%80%93%20%D0%94%D0%98%D0%9C%D0%9E%D0%9D(novteh.co).mp3" type="audio/mpeg">
+    <script>
+var pot = document.querySelector('.patrick');
+        
+var up = document.querySelector('.up');
+        
+var down = document.querySelector('.down');
+        
+var left = document.querySelector('.left');
+        
+var igor = document.querySelector('.right')
+var n1=300;
+        var n2=600;
+down.onclick=function(){
+    n1 = n1 + 50
+    pot.style.top=n1 + 'px'
+}
+up.onclick=function(){
+    n1 = n1 -50
+    pot.style.top=n1 + 'px'
+}
+left.onclick=function(){
+    n2 = n2 -50
+    pot.style.left=n2 +'px';
+    console.log(120*8641);
+    console.log(120*8641 + 'px')
+}
+igor.onclick=function(){
+    n2 = n2 +50;
+    pot.style.left=n2 + 'px'
+}
+    </script>
+</body>
+
+</html>

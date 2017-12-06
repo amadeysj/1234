@@ -1,0 +1,27 @@
+.patrick {
+    width: 100px;
+    position: absolute;
+    top: 300px;
+    left: 600px
+}
+
+.down {
+    position: absolute;
+    top: 550px;
+    left: 200px
+}
+.up {
+    position: absolute;
+    top: 450px;
+    left: 200px
+}
+.left {
+    position: absolute;
+    top: 500px;
+    left: 120px
+}
+.right{
+    position: absolute;
+    top: 500px;
+    left: 280px
+}
